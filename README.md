@@ -2,11 +2,21 @@
 
 GraphQL example for node's team huddle
 
-Database provided with seeds:
+First run:
+
+```batch
+npm install
+```
+
+Database provided:
 
 ```batch
 npm run schema:sync
+```
 
+To seed:
+
+```batch
 npm run seed:run
 ```
 
